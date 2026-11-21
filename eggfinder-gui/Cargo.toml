@@ -1,0 +1,26 @@
+[package]
+name = "eggfinder-gui"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "EggFinder"
+path = "src/main.rs"
+
+[dependencies]
+iced = { workspace = true, features = [
+    "wgpu",
+    "tiny-skia",
+    "fira-sans",
+    "tokio",
+    "advanced",
+    "image",
+    "svg",
+    "wayland",
+    "x11",
+    "crisp",
+    "web-colors",
+    "highlighter",
+] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

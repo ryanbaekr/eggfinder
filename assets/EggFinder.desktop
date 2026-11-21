@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=EggFinder
+Comment=A BDSP egg RNG application
+Exec=EggFinder
+Icon=EggFinder
+Type=Application
+Terminal=false
+Categories=Utility;
