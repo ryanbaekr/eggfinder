@@ -8,6 +8,7 @@ name = "EggFinder"
 path = "src/main.rs"
 
 [dependencies]
+eggfinder-core = { path = "../eggfinder-core" }
 iced = { workspace = true, features = [
     "wgpu",
     "tiny-skia",
